@@ -6,9 +6,9 @@ from collections import Counter
 app = Flask(__name__)
 
 # Elasticsearch cloud configuration
-CLOUD_ID = "Gen-AI:dXMtZWFzdC0xLmF3cy5mb3VuZC5pbzo0NDMkNmIyMTk4MzMzYzQzNDA4OTk0NThlOGYyNWViYmQ0ZTckOTljY2NmNmNkNGMwNDEyM2IwMTM1MTkyZWIyYTUzYWI="  # Replace with your Elastic Cloud ID
-CLOUD_USERNAME = "elastic"  # Replace with your Elastic username
-CLOUD_PASSWORD = "hr8qyxemxwqGWWXHDX7PGt54"  # Replace with your Elastic password
+CLOUD_ID = ""  # Replace with your Elastic Cloud ID
+CLOUD_USERNAME = ""  # Replace with your Elastic username
+CLOUD_PASSWORD = ""  # Replace with your Elastic password
 
 # Initialize Elasticsearch client for Elastic Cloud
 es = Elasticsearch(
@@ -83,12 +83,12 @@ template = '''
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>BAM ELSER Search</title>
+    <title>ELSER Search</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
     <div class="container">
-      <h1 class="mt-5">BAM ELSER Search</h1>
+      <h1 class="mt-5">BELSER Search</h1>
       <form method="post" class="mt-4">
         <div class="form-group">
           <label for="index_name">Index Name</label>
