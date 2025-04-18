@@ -88,7 +88,7 @@ template = '''
   </head>
   <body>
     <div class="container">
-      <h1 class="mt-5">BELSER Search</h1>
+      <h1 class="mt-5">ELSER Search</h1>
       <form method="post" class="mt-4">
         <div class="form-group">
           <label for="index_name">Index Name</label>
